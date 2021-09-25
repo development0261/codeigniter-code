@@ -1,0 +1,25 @@
+You are best!
+You are best!
+======== Date Added =====2021-07-20 12:40:48 
+Array
+(
+    [trainer_email] => jobs.subhamoy@gmail.com
+    [package_id] => 1
+    [product_name] => Grow
+    [currency] => aud
+    [unit_amount] => 5.00
+)
+
+======== Record Array =====
+Array
+(
+    [stripe_customer_id] => cus_Jsui40WszyaBQP
+    [trainer_email] => jobs.subhamoy@gmail.com
+    [subscription_id] => sub_Jsui5FLvGSnUzv
+    [is_active] => 1
+    [package_price] => 5.00
+    [package_id] => 1
+    [date_added] => 2021-07-20 12:40:48
+    [subscription_payment_iteration] => 1
+)
+

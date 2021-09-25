@@ -1,0 +1,58 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+$lang['text_title'] = 'extensiones' ;
+$lang['text_heading'] = 'extensiones' ;
+$lang['text_tab_module'] = 'módulos' ;
+$lang['text_tab_payment'] = 'pagos' ;
+$lang['text_edit_heading'] = 'Extensión: %s' ;
+$lang['text_add_heading'] = 'Extensión: Subir' ;
+$lang['text_browse_heading'] = 'Buscar extensiones' ;
+$lang['text_delete_heading'] = 'Extensión: Eliminar' ;
+$lang['text_list'] = 'Lista de extensiones' ;
+$lang['text_filter_search'] = 'Buscar nombre.' ;
+$lang['text_filter_type'] = 'Ver todos los tipos' ;
+$lang['text_filter_status'] = 'Ver todos los estados' ;
+$lang['text_empty'] = 'No hay extensiones disponibles.' ;
+$lang['text_author'] = 'Por: %s' ;
+$lang['text_confirm_delete'] = 'Confirmar eliminación' ;
+$lang['text_install'] = 'Instalar' ;
+$lang['text_uninstall'] = 'Desinstalar' ;
+$lang['text_installed'] = 'instalado' ;
+$lang['text_uninstalled'] = 'desinstalado' ;
+$lang['text_view_files'] = 'Ocultar / Ver archivos' ;
+$lang['text_upload_title'] = 'Suba el archivo de extensión .zip y se instalará automáticamente.' ;
+$lang['text_browse_title'] = 'Recién salido del horno... llegará pronto <i class="fa fa-smile-o"></i>' ;
+$lang['text_files'] = 'archivos' ;
+$lang['text_files_data'] = 'archivos y datos' ;
+$lang['button_upload'] = 'Actualizar e instalar' ;
+$lang['button_choose'] = 'Escoger' ;
+$lang['button_browse'] = '<i class="fa fa-puzzle-piece"></i> Buscar todas las extensiones' ;
+$lang['button_change'] = 'Cambio' ;
+$lang['button_delete'] = 'Eliminar' ;
+$lang['button_yes_delete'] = 'Sí, eliminar' ;
+$lang['button_return_to_list'] = 'No, regresar a la lista' ;
+$lang['column_name'] = 'Nombre' ;
+$lang['column_type'] = 'Tipo' ;
+$lang['column_version'] = 'Versión' ;
+$lang['column_desc'] = 'Descripción' ;
+$lang['column_author'] = 'Autor' ;
+$lang['column_id'] = 'CARNÉ DE IDENTIDAD' ;
+$lang['label_delete_data'] = 'Borrar datos' ;
+$lang['error_config'] = 'Se ha producido un error, el archivo de configuración de la extensión no se ha cargado' ;
+$lang['error_options'] = 'Se ha producido un error, las opciones de administración de la extensión están desactivadas' ;
+$lang['error_failed'] = 'Se produjo un error, la clase de ajuste del administrador de la extensión no se cargó: %s' ;
+$lang['error_installed'] = 'Se ha producido un error, la extensión no está instalada correctamente' ;
+$lang['error_upload_type'] = 'El tipo de archivo que está intentando cargar no está permitido.' ;
+$lang['error_upload_name'] = 'El nombre del tema no debe contener espacios en blanco ni espaciado, use guiones(-) en su lugar...' ;
+$lang['error_extension_exists'] = 'la extensión ya existe' ;
+$lang['error_php_upload'] = 'Error de carga de archivos PHP No: %s' ;
+$lang['error_config_not_found'] = 'El archivo de configuración para la extensión <b>%s</b> no existe.' ;
+$lang['error_config_invalid'] = 'El archivo de configuración para la extensión <b>%s</b> no parece contener un acuerdo de configuración válido.' ;
+$lang['error_config_invalid_key'] = 'Compruebe que el valor de configuración de la extensión <b>'%s'</b> para la extensión <b>%s</b> está correctamente ajustado' ;
+$lang['alert_info_layouts'] = 'Después de haber instalado y configurado un módulo se puede visualizar en un diseño <a href="%s" class="alert-link">aquí!</a>' ;
+$lang['alert_warning_layouts'] = 'Para mostrar este módulo de ampliación en el almacén, añádalo a un diseño <a href="%s" class="alert-link">aquí!</a>' ;
+$lang['alert_delete_warning'] = 'Está a punto de borrar los %s de la extensión <b>%s</b>' ;
+$lang['alert_delete_confirm'] = '¿Estás seguro de que deseas eliminar estos %s? Esto no se puede deshacer!' ;
+
+/* End of file extensions_lang.php */
+/* Location: ./admin/language/english/extensions_lang.php */

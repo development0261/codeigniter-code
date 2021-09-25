@@ -1,0 +1,100 @@
+[27-Jun-2021 15:41:57 Australia/Sydney] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 222
+[27-Jun-2021 16:41:10 Australia/Sydney] PHP Notice:  Undefined variable: customer_email in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 77
+[27-Jun-2021 16:41:10 Australia/Sydney] PHP Notice:  Undefined index: message in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 80
+[27-Jun-2021 17:11:21 Australia/Sydney] PHP Notice:  Undefined index: message in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 80
+[27-Jun-2021 19:46:46 Australia/Sydney] PHP Notice:  Undefined index: message in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 91
+[27-Jun-2021 19:58:34 Australia/Sydney] PHP Notice:  Undefined index: message in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 91
+[27-Jun-2021 20:15:35 Australia/Sydney] PHP Notice:  Undefined index: message in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 90
+[27-Jun-2021 20:15:35 Australia/Sydney] PHP Notice:  Undefined index: subscription_id in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 287
+[27-Jun-2021 20:15:35 Australia/Sydney] PHP Warning:  mail() expects at least 3 parameters, 2 given in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 287
+[27-Jun-2021 20:15:35 Australia/Sydney] PHP Deprecated:  Non-static method Stripe\Subscription::cancel() should not be called statically in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 289
+[27-Jun-2021 20:15:35 Australia/Sydney] PHP Notice:  Undefined index: subscription_id in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 290
+[27-Jun-2021 20:15:35 Australia/Sydney] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/sweetbit/public_html/eatapp/stripe-checkout-session/stripe-php/lib/Subscription.php:99
+Stack trace:
+#0 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(291): Stripe\Subscription::cancel(NULL, Array)
+#1 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(270): stripe_subscription_cancel(Array)
+#2 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(106): cancel_payment_plan(Array, Object(mysqli), 'yvdnsddqu_worko...')
+#3 {main}
+  thrown in /home/sweetbit/public_html/eatapp/stripe-checkout-session/stripe-php/lib/Subscription.php on line 99
+[27-Jun-2021 20:15:52 Australia/Sydney] PHP Notice:  Undefined index: message in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 90
+[27-Jun-2021 20:15:52 Australia/Sydney] PHP Notice:  Undefined index: subscription_id in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 287
+[27-Jun-2021 20:15:52 Australia/Sydney] PHP Warning:  mail() expects at least 3 parameters, 2 given in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 287
+[27-Jun-2021 20:15:52 Australia/Sydney] PHP Deprecated:  Non-static method Stripe\Subscription::cancel() should not be called statically in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 289
+[27-Jun-2021 20:15:52 Australia/Sydney] PHP Notice:  Undefined index: subscription_id in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 290
+[27-Jun-2021 20:15:52 Australia/Sydney] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/sweetbit/public_html/eatapp/stripe-checkout-session/stripe-php/lib/Subscription.php:99
+Stack trace:
+#0 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(291): Stripe\Subscription::cancel(NULL, Array)
+#1 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(270): stripe_subscription_cancel(Array)
+#2 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(106): cancel_payment_plan(Array, Object(mysqli), 'yvdnsddqu_worko...')
+#3 {main}
+  thrown in /home/sweetbit/public_html/eatapp/stripe-checkout-session/stripe-php/lib/Subscription.php on line 99
+[27-Jun-2021 20:25:04 Australia/Sydney] PHP Notice:  Undefined index: message in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 90
+[27-Jun-2021 20:25:04 Australia/Sydney] PHP Notice:  Undefined index: subscription_id in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 282
+[27-Jun-2021 20:25:04 Australia/Sydney] PHP Warning:  mail() expects at least 3 parameters, 2 given in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 282
+[27-Jun-2021 20:25:04 Australia/Sydney] PHP Deprecated:  Non-static method Stripe\Subscription::cancel() should not be called statically in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 290
+[27-Jun-2021 20:25:04 Australia/Sydney] PHP Notice:  Undefined index: subscription_id in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 291
+[27-Jun-2021 20:25:04 Australia/Sydney] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/sweetbit/public_html/eatapp/stripe-checkout-session/stripe-php/lib/Subscription.php:99
+Stack trace:
+#0 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(292): Stripe\Subscription::cancel(NULL, Array)
+#1 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(270): stripe_subscription_cancel(Array)
+#2 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(106): cancel_payment_plan(Array, Object(mysqli), 'yvdnsddqu_worko...')
+#3 {main}
+  thrown in /home/sweetbit/public_html/eatapp/stripe-checkout-session/stripe-php/lib/Subscription.php on line 99
+[27-Jun-2021 20:29:16 Australia/Sydney] PHP Notice:  Undefined index: message in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 91
+[27-Jun-2021 20:29:16 Australia/Sydney] PHP Notice:  Undefined index: subscription_id in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 283
+[27-Jun-2021 20:29:16 Australia/Sydney] PHP Warning:  mail() expects at least 3 parameters, 2 given in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 283
+[27-Jun-2021 20:29:16 Australia/Sydney] PHP Deprecated:  Non-static method Stripe\Subscription::cancel() should not be called statically in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 291
+[27-Jun-2021 20:29:16 Australia/Sydney] PHP Notice:  Undefined index: subscription_id in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 292
+[27-Jun-2021 20:29:16 Australia/Sydney] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/sweetbit/public_html/eatapp/stripe-checkout-session/stripe-php/lib/Subscription.php:99
+Stack trace:
+#0 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(293): Stripe\Subscription::cancel(NULL, Array)
+#1 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(271): stripe_subscription_cancel(Array)
+#2 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(107): cancel_payment_plan(Array, Object(mysqli), 'yvdnsddqu_worko...')
+#3 {main}
+  thrown in /home/sweetbit/public_html/eatapp/stripe-checkout-session/stripe-php/lib/Subscription.php on line 99
+[27-Jun-2021 20:32:12 Australia/Sydney] PHP Notice:  Undefined index: message in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 91
+[27-Jun-2021 20:37:41 Australia/Sydney] PHP Deprecated:  Non-static method Stripe\Subscription::cancel() should not be called statically in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 9
+[27-Jun-2021 20:37:41 Australia/Sydney] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/sweetbit/public_html/eatapp/stripe-checkout-session/stripe-php/lib/Subscription.php:99
+Stack trace:
+#0 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(11): Stripe\Subscription::cancel('sub_JkPb75Zx5cI...', Array)
+#1 {main}
+  thrown in /home/sweetbit/public_html/eatapp/stripe-checkout-session/stripe-php/lib/Subscription.php on line 99
+[27-Jun-2021 20:39:19 Australia/Sydney] PHP Deprecated:  Non-static method Stripe\Subscription::cancel() should not be called statically in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 9
+[27-Jun-2021 20:39:19 Australia/Sydney] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/sweetbit/public_html/eatapp/stripe-checkout-session/stripe-php/lib/Subscription.php:99
+Stack trace:
+#0 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(11): Stripe\Subscription::cancel('sub_JkPb75Zx5cI...', Array)
+#1 {main}
+  thrown in /home/sweetbit/public_html/eatapp/stripe-checkout-session/stripe-php/lib/Subscription.php on line 99
+[27-Jun-2021 20:40:36 Australia/Sydney] PHP Deprecated:  Non-static method Stripe\Subscription::cancel() should not be called statically in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 9
+[27-Jun-2021 20:40:36 Australia/Sydney] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/sweetbit/public_html/eatapp/stripe-checkout-session/stripe-php/lib/Subscription.php:99
+Stack trace:
+#0 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(11): Stripe\Subscription::cancel('sub_JkPb75Zx5cI...', Array)
+#1 {main}
+  thrown in /home/sweetbit/public_html/eatapp/stripe-checkout-session/stripe-php/lib/Subscription.php on line 99
+[27-Jun-2021 20:50:40 Australia/Sydney] PHP Deprecated:  Non-static method Stripe\Subscription::cancel() should not be called statically in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 9
+[27-Jun-2021 20:50:40 Australia/Sydney] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/sweetbit/public_html/eatapp/stripe-checkout-session/stripe-php/lib/Subscription.php:99
+Stack trace:
+#0 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(10): Stripe\Subscription::cancel(Array)
+#1 {main}
+  thrown in /home/sweetbit/public_html/eatapp/stripe-checkout-session/stripe-php/lib/Subscription.php on line 99
+[27-Jun-2021 20:59:40 Australia/Sydney] PHP Notice:  Undefined index: message in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 91
+[27-Jun-2021 21:03:02 Australia/Sydney] PHP Notice:  Undefined index: message in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 91
+[27-Jun-2021 21:06:09 Australia/Sydney] PHP Notice:  Undefined index: message in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 91
+[27-Jun-2021 21:06:09 Australia/Sydney] PHP Notice:  Undefined index: subscription_id in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 283
+[27-Jun-2021 21:06:09 Australia/Sydney] PHP Warning:  mail() expects at least 3 parameters, 2 given in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 283
+[27-Jun-2021 21:06:09 Australia/Sydney] PHP Notice:  Undefined index: subscription_id in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 294
+[27-Jun-2021 21:06:09 Australia/Sydney] PHP Notice:  Undefined index: subscription_id in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 298
+[27-Jun-2021 21:13:57 Australia/Sydney] PHP Notice:  Undefined index: message in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 91
+[27-Jun-2021 21:13:57 Australia/Sydney] PHP Warning:  mail() expects at least 3 parameters, 2 given in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 283
+[27-Jun-2021 21:16:31 Australia/Sydney] PHP Notice:  Undefined index: message in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 91
+[27-Jun-2021 21:17:48 Australia/Sydney] PHP Warning:  mail() expects at least 3 parameters, 2 given in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 283
+[27-Jun-2021 21:53:54 Australia/Sydney] PHP Notice:  Undefined index: message in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 99
+[27-Jun-2021 21:53:55 Australia/Sydney] PHP Notice:  Undefined variable: ALL_SUBSCRIPTION_RECORDS in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 290
+[27-Jun-2021 21:53:55 Australia/Sydney] PHP Notice:  Undefined variable: conn in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 290
+[27-Jun-2021 21:53:55 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php:246
+Stack trace:
+#0 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(290): insert_update_table(NULL, Array, Array, NULL)
+#1 /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php(115): cancel_payment_plan(Array, Object(mysqli), 'yvdnsddqu_worko...')
+#2 {main}
+  thrown in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 246
+[27-Jun-2021 21:54:10 Australia/Sydney] PHP Notice:  Undefined index: message in /home/sweetbit/public_html/eatapp/stripe-checkout-session/webhook_technowand.php on line 99

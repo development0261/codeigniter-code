@@ -1,0 +1,60 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+$lang['text_title'] = 'Cupones' ;
+$lang['text_heading'] = 'Cupones' ;
+$lang['text_edit_heading'] = 'Coupon: %s' ;
+$lang['text_list'] = 'Lista de cupones' ;
+$lang['text_tab_general'] = 'Cupón' ;
+$lang['text_tab_history'] = 'Historia' ;
+$lang['text_filter_search'] = 'Buscar por nombre o código.' ;
+$lang['text_filter_type'] = 'Ver todos los tipos' ;
+$lang['text_filter_status'] = 'Ver todos los estados' ;
+$lang['text_empty'] = 'No hay cupones disponibles.' ;
+$lang['text_no_history'] = 'No hay historia de este cupón.' ;
+$lang['text_coupon'] = 'Cupón' ;
+$lang['text_fixed_amount'] = 'Cantidad fija' ;
+$lang['text_percentage'] = 'Porcentaje' ;
+$lang['text_24_hour'] = '24 horas' ;
+$lang['text_custom'] = 'personalizado' ;
+$lang['text_leading_zeros'] = '' ;
+$lang['column_name'] = 'Nombre' ;
+$lang['column_code'] = 'Código' ;
+$lang['column_type'] = 'Tipo' ;
+$lang['column_discount'] = 'Descuento' ;
+$lang['column_validity'] = 'Validez' ;
+$lang['column_status'] = 'Estado' ;
+$lang['column_order_id'] = 'Id del Pedido' ;
+$lang['column_customer'] = 'Cliente' ;
+$lang['column_amount'] = 'Cantidad' ;
+$lang['column_date_used'] = 'Fecha utilizada' ;
+$lang['label_name'] = 'Nombre cupón' ;
+$lang['label_code'] = 'Código' ;
+$lang['label_type'] = 'Tipo' ;
+$lang['label_discount'] = 'Descuento' ;
+$lang['label_min_total'] = 'mínimo total' ;
+$lang['label_redemption'] = 'reembolsos' ;
+$lang['label_customer_redemption'] = 'Los reembolsos de los clientes' ;
+$lang['label_description'] = 'Descripción' ;
+$lang['label_validity'] = 'Validez' ;
+$lang['label_order_restriction'] = 'Restricción del pedido' ;
+$lang['label_date'] = 'Fecha' ;
+$lang['label_fixed_date'] = 'Fecha corregida' ;
+$lang['label_fixed_time'] = 'Hora corregida' ;
+$lang['label_fixed_from_time'] = 'Corregida desde' ;
+$lang['label_fixed_to_time'] = 'Corregida hasta' ;
+$lang['label_period_start_date'] = 'Fecha inicio del periodo' ;
+$lang['label_period_end_date'] = 'Fecha final del período' ;
+$lang['label_recurring_every'] = 'recurrentes cada' ;
+$lang['label_recurring_time'] = 'tiempo recurrente' ;
+$lang['label_recurring_from_time'] = 'Recurrente desde' ;
+$lang['label_recurring_to_time'] = 'Recurrente hasta' ;
+$lang['label_status'] = 'Estado' ;
+$lang['help_type'] = 'Ya sea para restar una cantidad fija o un porcentaje de orden total.' ;
+$lang['help_redemption'] = 'El número total de veces que este cupón se puede redimir. Introduzca 0 para canjearlos ilimitadamente.' ;
+$lang['help_customer_redemption'] = 'El número de veces que un cliente específico puede canjear este cupón. Introduzca 0 para canjearlos ilimitadamente.' ;
+$lang['help_order_restriction'] = 'Ya sea para restringir el cupón a un tipo de orden específico.' ;
+$lang['alert_code_exist'] = 'Código promocional ya existen.' ;
+
+
+/* End of file coupons_lang.php */
+/* Location: ./admin/language/english/coupons_lang.php */

@@ -1,0 +1,53 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+$lang['text_title'] = 'Actualizaciones de RestaurantCart' ;
+$lang['text_heading'] = 'Actualizaciones de RestaurantCart <span class="small">[BETA]</span>' ;
+$lang['text_upgrade_title'] = 'Actualización %s' ;
+$lang['text_upgrade_heading'] = 'Update %s &nbsp;&nbsp;<i id="updateProgress" class="fa fa-spinner fa-pulse" title="Loading, please wait"></i>' ;
+$lang['text_tab_title_core'] = 'RestaurantCart' ;
+$lang['text_tab_title_extensions'] = 'extensiones' ;
+$lang['text_tab_title_themes'] = 'temas' ;
+$lang['text_tab_title_translations'] = 'traducciones' ;
+$lang['text_last_checked'] = '<b>Última comprobación:</b> %s' ;
+$lang['text_select_all'] = 'Seleccionar todo' ;
+$lang['text_core_updated'] = '¡Yupi! Estás ejecutando la última versión de RestaurantCart.' ;
+$lang['text_core_update_available'] = '<strong>Hay una nueva versión de RestaurantCart disponible</strong>' ;
+$lang['text_updated'] = '¡Yupi! Tus %s están todos actualizados.' ;
+$lang['text_update_available'] = 'Los siguientes %s tienen nuevas versiones disponibles. Marca las que quieras actualizar y luego haz clic en "Actualizar %s".' ;
+$lang['text_maintenance_mode'] = 'Durante la actualización de su sitio web, se habilitará el modo de mantenimiento. Una vez completadas las actualizaciones, su sitio saldrá del modo de mantenimiento.' ;
+$lang['text_update_start'] = 'El proceso de actualización está comenzando. Este proceso puede tardar un poco en algunos hosts, así que por favor tenga paciencia.' ;
+$lang['text_complete_installation'] = '<a href="%s" target="_parent">Instalación completa</a>' ;
+$lang['text_files_added'] = '<strong>Archivos añadidos: (%s)</strong>' ;
+$lang['text_files_modified'] = '<strong>Archivos modificados: (%s)</strong>' ;
+$lang['text_files_deleted'] = '<strong>Archivos borrados: (%s)</strong>' ;
+$lang['text_files_unchanged'] = '<strong>Archivos Sin Cambiar: (%s) </strong>' ;
+$lang['text_files_failed'] = '<strong>Archivos no actualizados: (%s)</strong>' ;
+$lang['progress_update'] = '<strong id="progress-updating">Actualización %s&#8230;</strong>' ;
+$lang['progress_enable_maintenance'] = 'Habilitando el modo de mantenimiento&#8230;' ;
+$lang['progress_disable_maintenance'] = 'Restauración/desactivación del modo de mantenimiento&#8230;' ;
+$lang['progress_download_update'] = '<i class="fa fa-cloud-download fa-fw"></i>&nbsp;&nbsp;&nbsp;Descargando la actualización&#8230;' ;
+$lang['progress_extract_update'] = '<i class="fa fa-file-archivo-o fa-fw"></i>&nbsp;&nbsp;&nbsp;Extracción de la actualización&#8230;' ;
+$lang['progress_install_update'] = '<i class="fa fa-download fa-fw"></i>&nbsp;&nbsp;&nbsp;Instalando la actualización&#8230;' ;
+$lang['progress_modified_files'] = '<i class="fa fa-files-o fa-fw"></i>&nbsp;&nbsp;&nbsp;<a id="toggleUpdatedFiles" class="clickable">Ver archivos actualizados</a>' ;
+$lang['progress_update_success'] = '<strong id="progress-updated">Updated %s successfully.</strong>' ;
+$lang['progress_download_failed'] = '<span class="text-danger">La descarga de la actualización falló, compruebe su registro de errores.</span>' ;
+$lang['progress_extract_failed'] = '<span class="text-danger">No se ha podido abrir el zip descargado, compruebe los permisos de su archivo&#8230;</span>' ;
+$lang['progress_install_failed'] = '<span class="text-danger">La instalación de la actualización falló, compruebe su registro de errores.</span>' ;
+$lang['progress_update_incomplete'] = '<span class="text-warning">El proceso de instalación está incompleto, por favor espere a que termine</span>' ;
+$lang['progress_archive_not_found'] = '<span class="text-danger">No se ha podido encontrar/abrir el archivo de actualización descargado.</span>' ;
+$lang['button_check_again'] = '<i class="fa fa-refresh"></i> Comprobar de nuevo' ;
+$lang['button_update_now'] = 'Actualizar ahora' ;
+$lang['button_update_extensions'] = 'Actualizar extensiones' ;
+$lang['button_update_themes'] = 'Actualizar Temas' ;
+$lang['button_update_translations'] = 'Actualizar Traducciones' ;
+$lang['button_download_update'] = 'Descargar <b>%s</b>' ;
+$lang['button_skip_update'] = 'Saltar actualización' ;
+$lang['help_core_update'] = 'Usted puede actualizar a RestaurantCart <b>%s</b> automáticamente:' ;
+$lang['alert_modification_warning'] = '<b>Advertencia:</b> Cualquier modificación que haya hecho al núcleo de RestaurantCart, extensiones, temas y archivos de traducción se perderán.' ;
+$lang['alert_updates_warning'] = '<b>Precaución:</b> antes de actualizar, por favor haga una copia de seguridad de su base de datos y archivos.' ;
+$lang['alert_zip_warning'] = '<b>Advertencia:</b> ¡La extensión ZIP necesita ser cargada en su servidor! Por favor, pregunte a su compañía de hospedaje para más ayuda.' ;
+$lang['alert_permission_warning'] = '<b>Advertencia:</b> No tiene permiso para aplicar las actualizaciones.' ;
+$lang['alert_bad_request'] = 'Solicitud incorrecta, por favor, compruebe y vuelva a intentarlo.' ;
+
+/* End of file updates_lang.php */
+/* Location: ./admin/language/english/updates_lang.php */

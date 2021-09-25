@@ -1,0 +1,1 @@
+INSERT INTO `yvdnsddqu_permissions` (`permission_id`, `name`, `description`, `action`, `status`) VALUES (NULL, 'Site.Stories', 'Ability to manage, add and delete site languages', 'a:4:{i:0;s:6:"access";i:1;s:6:"manage";i:2;s:3:"add";i:3;s:6:"delete";}', '1');

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "restaurant-cart",
+  "private_key_id": "f5c35b20eb56b9f1f23ee7026b7aa351d58d5aec",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC3Xbzl2YqqJFHs\nrh/CDchymffBwmdn3u7zcmQxnR10x9xJB9AMrW115jTReLS6VRIM10yckediSzzh\n0T1LM3u6nEPFe+0SSlns5LnyHxGbPbRw8/IOqlsxu1NBSzSKrEH6hZioZUjTNa4E\nEjap8u5YGbcGy5Kdanf3Fb4QMinAgY8IDL3rFzC2OBjn+hSuW6IPNXanVYtoeUb8\nK+Qla52oXwxQbwJSXxRbuCmXIBNq5IqHoB3YdB6V1awQEJ7Dd8Q7XjMv4PPPj2r/\n1lw4lK+ukVNadzovTByLx7VvZwkvezSXiyai4KuM7tyKQAm/VLV3IOKSKTeO1ha3\nWptCVcRbAgMBAAECggEAKD1L7Oz2fywFRnlXwtAfgvbC5iRxaNwFeCtMTY77HduW\nPfiW8ZFFijAAu09P6ewtT+AXkex66Jk2PSAb4Vrk9ijAvp/ZgMAMR+5R2A51YKoD\n5R3DqvA7nwhK1vNYDm6K9B1JSPshJiiLjZ0pndYP9AmAnt8hx6XLuc9trEQ14Wat\n0w+ZqBravKiuRdn1kZon6hFfbSoQW6J6kMVbwpbgoAeAwVhvqoQ9eCfuxW1XwHUo\ndwY1t+Aalv3nGxCfhxJJ753x1cE5v/NMD90CLQ2NkPSyZccnLYGxpbvTct/JkGVj\nQBX6g5WmAckgGugNZOI7sMQ4IYihTUIx6eTjeDiZwQKBgQDo78jtK7pZ2ghpbMkA\nPcKU/ErCQt/ex5+zN2gpM5S2O1iK5ChpzwJUYOVH7ettjpnzQc6ff3Y+wnOtLEcD\nFntwBpsz6kOgPgm9+lX3IexfhFel5+zoQTnpjzAZjTv0uGvSKUTG0a8u6h3hwnc6\nInaCISaMEg8YN+mon9GvrUpw0QKBgQDJhX8BawRbsUxvCSAAjBYEECcXYvk5nCLE\ncn6DqKJobKGsF6IbAYfThGSckpj7xFoYmr+AlsLOOEO7345Szs8ZU0Xoh2Jz6HBZ\n6Qm9O6+0+amCQZAI3e3CgC3tSdBKwHxvCuStU4WwMeiMfamMfXCT5qh6Ni7Kis1C\nVn8/lB4NawKBgQC/oeVPGRZqLTGWaeTCygx2vUhToOjEQr5jlkWe/8xsT058lU+a\nHK/x8vUtw9JXg2Wr9ouiNB53a0n3QeH57FkIxKaSgzu3bNJe9MAcXFA2FI528uK4\nAFFAkIglvUeCAObTMxhd6MuScRC8Vlv3+7o7PEKWIZVBe15DV5gOSyZewQKBgGA6\n1iYYM1GRvXz8L4LzYgP4rqIVSgt/in6iadV27m7NCPrDok4hEfooK181BcabwaYk\nJzRBSa7t4TJSk4Tpaq2ePTDHjXTp1tSoWlU5rjLOUWp44k3JpCKP0N6Rs9wuRH1G\nB2LZEmrLuk90JkWHFP4bU/Jf80IWu+NkqIj0stEXAoGBANpd/2bL/maOq3PE5vFk\nZADmdkHo+SWgwDjlDK81MobswjIcE1is7uvQClST018IkatdVX1pE4txKQ/8bksz\nwdWYPME/Y1hoM7LPEebMlWYnTmEUx9T+4znmmCIHrhlaLVy2jClrwFyo4VlXE4oJ\n8Ww5mqWSn8Lj+x6gT2uzIp/m\n-----END PRIVATE KEY-----\n",
+  "client_email": "restaurant-cart@appspot.gserviceaccount.com",
+  "client_id": "112396794768400325846",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/restaurant-cart%40appspot.gserviceaccount.com"
+}

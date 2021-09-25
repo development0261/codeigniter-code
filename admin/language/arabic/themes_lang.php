@@ -1,0 +1,57 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+$lang['text_title']          =  'المواضيع' ;
+$lang['text_heading']          =  'المواضيع' ;
+$lang['text_edit_heading']          =  'موضوع: %s' ;
+$lang['text_add_heading']          =  'الموضوع: تحميل' ;
+$lang['text_delete_heading']          =  'الموضوع: حذف' ;
+$lang['text_copy_heading']          =  'الموضوع: نسخ (إنشاء سمة فرعية)' ;
+$lang['text_upload_title']          =  'تحميل ملف .zip theme.' ;
+$lang['text_list']          =  'قائمة الموضوع' ;
+$lang['text_tab_customize']          =  'يعدل' ;
+$lang['text_tab_edit_source']          =  'تحرير المصدر' ;
+$lang['text_empty']          =  'لا توجد مواضيع متاحة.' ;
+$lang['text_customize']          =  'يعدل' ;
+$lang['text_theme']          =  'موضوع' ;
+$lang['text_editing']          =  'Editing file "%s" in theme "%s".' ;
+$lang['text_viewing']          =  'Viewing image "%s" in theme "%s".' ;
+$lang['text_preview']          =  'معاينة' ;
+$lang['text_delete']          =  'حذف' ;
+$lang['text_custom_theme']          =  'إضافة موضوع مخصص' ;
+$lang['text_enlarge']          =  'اضغط للتكبير' ;
+$lang['text_is_default']          =  'نشيط' ;
+$lang['text_set_default']          =  'تفعيل' ;
+$lang['text_author']          =  'مؤلف' ;
+$lang['text_version']          =  'الإصدار' ;
+$lang['text_theme_is_active']          =  '. الموضوع الذي تحاول حذفه لا يزال نشطًا.' ;
+$lang['text_theme_is_child_active']          =  '. يحتوي المظهر الذي تحاول حذفه على سمة فرعية نشطة.' ;
+$lang['text_select_file_summary']          =  '<h4>Select a File!</h4><p>You can select from a number of options to alter the look of your theme. <br /> The Theme Editor only supports source files(php, css, js,...) and image files.</p>' ;
+$lang['text_is_child_theme']          =  'This is a child theme of <b>%s</b>' ;
+$lang['text_view_files']          =  'إخفاء / عرض الملفات' ;
+$lang['text_copy_theme']          =  'نسخ (إنشاء سمة فرعية)' ;
+$lang['text_files']          =  'ملفات' ;
+$lang['text_files_data']          =  'الملفات والبيانات' ;
+$lang['text_copied']          =  'نسخ (إنشاء موضوع الطفل)' ;
+$lang['column_name']          =  'اسم' ;
+$lang['label_delete_data']          =  'حذف البيانات' ;
+$lang['label_copy_data']          =  'نسخ البيانات' ;
+$lang['button_upload']          =  'تحميل' ;
+$lang['button_browse']          =  'تصفح' ;
+$lang['button_change']          =  'تغيير' ;
+$lang['button_delete']          =  'حذف' ;
+$lang['button_yes_delete']          =  'نعم ، احذف' ;
+$lang['button_yes_copy']          =  'نعم ، نسخة' ;
+$lang['button_return_to_list']          =  'لا ، العودة إلى القائمة' ;
+$lang['error_theme_not_found']          =  'حدث خطأ ، لا يمكن العثور على السمة أو تحميلها.' ;
+$lang['error_file_not_supported']          =  'الملف المحدد غير مدعوم' ;
+$lang['error_upload_name']          =  'يجب ألا يحتوي اسم السمة على مسافة بيضاء أو تباعد ، استخدم الواصلات (-) بدلاً من ذلك.' ;
+$lang['error_upload_type']          =  'غير مسموح باستخدام filetype الذي تحاول تحميله.' ;
+$lang['error_php_upload']          =  'PHP File Uploading Error No: %s' ;
+$lang['error_theme_exists']          =  'الموضوع موجود بالفعل' ;
+$lang['alert_delete_warning']          =  'You are about to delete the %s of theme <b>%s</b>' ;
+$lang['alert_delete_confirm']          =  'هل أنت متأكد من أنك تريد حذف هذه٪ s؟ هذا لا يمكن التراجع عنها!' ;
+$lang['alert_copy_warning']          =  'You are about to create a copy the following %s from theme <b>%s</b>' ;
+$lang['alert_copy_confirm']          =  'هل أنت متأكد من أنك تريد نسخ٪ s هذه؟' ;
+
+/* End of file themes_lang.php */
+/* Location: ./admin/language/english/themes_lang.php */

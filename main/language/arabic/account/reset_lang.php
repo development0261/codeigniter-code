@@ -1,0 +1,47 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct access allowed');
+
+$lang['text_heading'] = 'إعادة تعيين كلمة مرور الحساب' ;
+$lang['text_summary'] = 'عنوان البريد الإلكتروني الذي تستخدمه لتسجيل الدخول إلى حسابك سنرسل إليك بريد إلكتروني بكلمة مرور جديدة.' ;
+$lang['label_email'] = 'عنوان البريد الإلكتروني:' ;
+$lang['label_s_question'] = 'مسألة الأمان' ;
+$lang['label_s_answer'] = 'جواب الأمان' ;
+$lang['button_continue'] = 'استمر' ;
+$lang['button_login'] = 'تسجيل الدخول' ;
+$lang['button_reset'] = 'إعادة ضبط كلمة المرور' ;
+$lang['alert_reset_success'] = '<p class="alert-success">مت إعادة تعيين كلمة المرور بنجاح, يرجى التحقق من بريدك الإلكتروني للحصول على كلمة المرور الجديدة..</p>' ;
+$lang['alert_reset_error'] = '<p class="تمت إعادة تعيين كلمة المرور ، أو لم يتم العثور على البريد الإلكتروني أو تم إدخال تفاصيل غير صحيحة.</p>' ;
+$lang['alert_no_email_match'] = 'لا يوجد عنوان بريد إلكتروني مطابق' ;
+$lang['alert_no_s_answer_match'] = 'الإجابة الأمنية غير متطابقة' ;
+$lang['alert_no_s_question_match'] = 'سؤال الأمن لا يطابق' ;
+$lang['text_follow_us'] = 'تابعنا على:' ;
+$lang['menu_home'] = 'الصفحة الرئيسية' ;
+$lang['menu_menu'] = 'قائمة الطعام' ;
+$lang['menu_reservation'] = 'الحجز' ;
+$lang['menu_login'] = 'تسجيل الدخول' ;
+$lang['menu_register'] ='تسجيل';
+$lang['signup'] ='تسجيل';
+$lang['about'] ='حول';
+$lang['faq'] ='التعليمات';
+$lang['privacy_policy'] ='سياسة الخصوصية';
+$lang['help_center'] ='تسجيل';
+$lang['contact'] ='تسجيل';
+$lang['contact_us'] ='اتصل بنا';
+$lang['text_follow_us'] ='اتبعنا:';
+$lang['spotneat'] ='الطربيزة';
+$lang['rights']= '2018 ترابه. كل الحقوق محفوظة';
+$lang['blog'] = 'المدونة' ;
+$lang['legal'] = 'قانوني' ;
+$lang['how_it_works'] = 'كيف تعمل' ;
+$lang['menu_recent_order'] = 'الطلبيات الأخيرة' ;
+$lang['menu_my_account'] = 'حسابي' ;
+$lang['menu_recent_reservation'] = 'التحفظات الأخيرة' ;
+$lang['menu_logout'] = 'الخروج' ;
+$lang['text_inbox'] = 'صندوق البريد الخاص بي';
+$lang['text_account']='حسابي';
+$lang['text_edit_details']='تحرير تفاصيلي';
+$lang['text_orders']='الطلبيات الأخيرة';
+$lang['text_reservations']='التحفظات الأخيرة';
+$lang['text_reviews']='المراجعات الأخيرة';
+$lang['text_logout']='الخروج';
+/* End of file reset_lang.php */
+/* Location: ./main/language/english/main/account/reset_lang.php */

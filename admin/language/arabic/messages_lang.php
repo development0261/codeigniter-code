@@ -1,0 +1,64 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+$lang['text_title']          =  'رسائل' ;
+$lang['text_heading']          =  'رسائل' ;
+$lang['text_edit_heading']          =  'الرسالة: %s' ;
+$lang['text_filter_search']          =  'البحث عن المرسل أو الموضوع.' ;
+$lang['text_filter_date']          =  'عرض جميع التواريخ' ;
+$lang['text_filter_recipient']          =  'عرض جميع المستلمين' ;
+$lang['text_empty']          =  'لا توجد رسائل متاحة في هذا المجلد.' ;
+$lang['text_no_recipient']          =  'لا يوجد مستلمين متاحين.' ;
+$lang['text_email']          =  'البريد الإلكتروني' ;
+$lang['text_account']          =  'الحساب' ;
+$lang['text_inbox']          =  'صندوق الوارد' ;
+$lang['text_draft']          =  'مسودة' ;
+$lang['text_sent']          =  'أرسلت' ;
+$lang['text_all']          =  'الكل' ;
+$lang['text_view']          =  'معاينة' ;
+$lang['text_archive']          =  'أرشيف' ;
+$lang['text_all_newsletters']          =  'جميع المشتركين في النشرة الإخبارية' ;
+$lang['text_all_customers']          =  'جميع العملاء' ;
+$lang['text_customer_group']          =  'مجموعة العملاء' ;
+$lang['text_customers']          =  'الزبائن' ;
+$lang['text_all_staff']          =  'جميع الموظفين' ;
+$lang['text_staff_group']          =  'مجموعة الموظفين' ;
+$lang['text_staff']          =  'العاملين' ;
+$lang['text_folders']          =  'المجلدات' ;
+$lang['text_labels']          =  'التسميات / أنواع' ;
+$lang['text_move_to_inbox']          =  'استعادة' ;
+$lang['text_move_to_archive']          =  'الانتقال إلى الأرشيف' ;
+$lang['text_move_to_trash']          =  'ارسال الى سلة المحذوفات' ;
+$lang['text_refresh']          =  'تحديث' ;
+$lang['text_mark_as_read']          =  'ضع إشارة مقروء' ;
+$lang['text_mark_as_unread']          =  'وضع علامة كغير مقروءة' ;
+$lang['text_compose_message']          =  'تأليف رسالة جديدة' ;
+$lang['text_view_message']          =  'شاهد الرساله' ;
+$lang['text_recipient']          =  'مستلم' ;
+$lang['text_recipient_list']          =  'قائمة المستلمين' ;
+#NAME?
+$lang['button_send']          =  'إرسال' ;
+$lang['button_save_draft']          =  'حفظ كمسودة' ;
+$lang['column_sent']          =  'أرسلت' ;
+$lang['column_read']          =  'اقرأ' ;
+$lang['column_deleted']          =  'تم الحذف' ;
+$lang['label_to']          =  'إلى' ;
+$lang['label_from']          =  'من عند' ;
+$lang['label_subject']          =  'موضوع' ;
+$lang['label_body']          =  'الجسم' ;
+$lang['label_customer_group']          =  'مجموعة العملاء' ;
+$lang['label_staff_group']          =  'مجموعة الموظفين' ;
+$lang['label_customers']          =  'الزبائن' ;
+$lang['label_staff']          =  'العاملين' ;
+$lang['label_send_type']          =  'ارسل نوع' ;
+$lang['alert_mark_as_unread']          =  'تم وضع علامة كغير مقروءة.' ;
+$lang['alert_mark_as_read']          =  'تم وضع علامة كمقروءة.' ;
+$lang['alert_move_to_inbox']          =  'تم إسترجاعة.' ;
+$lang['alert_move_to_archive']          =  'تم نقله إلى الأرشيف.' ;
+$lang['alert_move_to_trash']          =  'قد تم حذف.' ;
+$lang['alert_saved_to_draft']          =  'حفظها في المسودة' ;
+$lang['alert_success_sent']          =  'أرسلت' ;
+$lang['alert_warning_confirm']          =  'هل انت متأكد من أنك تريد أن تفعل هذا؟' ;
+$lang['alert_warning_confirm_undo']          =  'هل انت متأكد من أنك تريد أن تفعل هذا؟ هذا لا يمكن التراجع عنها!' ;
+
+/* End of file messages_lang.php */
+/* Location: ./admin/language/english/messages_lang.php */

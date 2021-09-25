@@ -1,0 +1,19 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct access allowed');
+
+/**
+ * update details as daily basis yvdnsddqu_trainer_packages
+ */
+class Migration_Insert_Locations_Table extends CI_Migration { 
+
+    public function up() {
+        $this->db->query("INSERT INTO `yvdnsddqu_locations` (`location_id`, `location_name`, `location_name_ar`, `location_email`, `description`, `description_ar`, `location_address_1`, `location_address_1_ar`, `location_address_2`, `location_address_2_ar`, `location_city`, `location_city_ar`, `location_state`, `location_state_ar`, `location_postcode`, `location_country_id`, `location_telephone`, `location_lat`, `location_lng`, `location_radius`, `offer_delivery`, `offer_collection`, `delivery_time`, `delivery_boy_commission`, `last_order_time`, `reservation_time_interval`, `reservation_stay_time`, `location_status`, `collection_time`, `options`, `location_image`, `rewards_value`, `reward_status`, `rewards_enable`, `point_value`, `point_price`, `minimum_price`, `cancellation_period`, `cancellation_charge`, `cancellation_time`, `refund_status`, `open_close_status`, `first_table_price`, `additional_table_price`, `location_type`, `veg_type`, `location_ratings`, `rewards_method`, `maximum_amount`, `payment_details`, `added_by`, `restaurant_by`, `tax_type`, `tax_perc`, `tax_status`, `delivery_fee`) VALUES
+        (33, 'Fitness Cartel Aspley', '', 'aspley@technowand.com', '', '', '100', '', 'Fitness cartel', '', 'Fitness cartel', '', 'QLD', '', '4558', 13, '+61-0754792034', -26.651558, 153.079956, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 'a:5:{s:12:\"auto_lat_lng\";s:1:\"1\";s:13:\"opening_hours\";a:11:{s:12:\"opening_type\";s:4:\"24_7\";s:10:\"daily_days\";a:7:{i:0;s:1:\"0\";i:1;s:1:\"1\";i:2;s:1:\"2\";i:3;s:1:\"3\";i:4;s:1:\"4\";i:5;s:1:\"5\";i:6;s:1:\"6\";}s:11:\"daily_hours\";a:2:{s:4:\"open\";s:8:\"12:00 AM\";s:5:\"close\";s:8:\"11:59 PM\";}s:14:\"flexible_hours\";a:7:{i:0;a:4:{s:3:\"day\";s:1:\"0\";s:4:\"open\";s:8:\"12:00 AM\";s:5:\"close\";s:8:\"11:59 PM\";s:6:\"status\";s:1:\"1\";}i:1;a:4:{s:3:\"day\";s:1:\"1\";s:4:\"open\";s:8:\"12:00 AM\";s:5:\"close\";s:8:\"11:59 PM\";s:6:\"status\";s:1:\"1\";}i:2;a:4:{s:3:\"day\";s:1:\"2\";s:4:\"open\";s:8:\"12:00 AM\";s:5:\"close\";s:8:\"11:59 PM\";s:6:\"status\";s:1:\"1\";}i:3;a:4:{s:3:\"day\";s:1:\"3\";s:4:\"open\";s:8:\"12:00 AM\";s:5:\"close\";s:8:\"11:59 PM\";s:6:\"status\";s:1:\"1\";}i:4;a:4:{s:3:\"day\";s:1:\"4\";s:4:\"open\";s:8:\"12:00 AM\";s:5:\"close\";s:8:\"11:59 PM\";s:6:\"status\";s:1:\"1\";}i:5;a:4:{s:3:\"day\";s:1:\"5\";s:4:\"open\";s:8:\"12:00 AM\";s:5:\"close\";s:8:\"11:59 PM\";s:6:\"status\";s:1:\"1\";}i:6;a:4:{s:3:\"day\";s:1:\"6\";s:4:\"open\";s:8:\"12:00 AM\";s:5:\"close\";s:8:\"11:59 PM\";s:6:\"status\";s:1:\"1\";}}s:13:\"delivery_type\";s:1:\"0\";s:13:\"delivery_days\";a:7:{i:0;s:1:\"0\";i:1;s:1:\"1\";i:2;s:1:\"2\";i:3;s:1:\"3\";i:4;s:1:\"4\";i:5;s:1:\"5\";i:6;s:1:\"6\";}s:14:\"delivery_hours\";a:2:{s:4:\"open\";s:8:\"12:00 AM\";s:5:\"close\";s:8:\"11:59 PM\";}s:15:\"collection_type\";s:1:\"0\";s:15:\"collection_days\";a:7:{i:0;s:1:\"0\";i:1;s:1:\"1\";i:2;s:1:\"2\";i:3;s:1:\"3\";i:4;s:1:\"4\";i:5;s:1:\"5\";i:6;s:1:\"6\";}s:16:\"collection_hours\";a:2:{s:4:\"open\";s:8:\"12:00 AM\";s:5:\"close\";s:8:\"11:59 PM\";}s:13:\"holidays_list\";a:0:{}}s:13:\"future_orders\";s:1:\"0\";s:17:\"future_order_days\";a:2:{s:8:\"delivery\";s:1:\"5\";s:10:\"collection\";s:1:\"5\";}s:7:\"gallery\";a:2:{s:5:\"title\";s:0:\"\";s:11:\"description\";s:0:\"\";}}', '', 0, 0, 2, 0, 0, 0, '', '0', 0, 0, 1, '', '', 'both', 'both', 0, 'full', 0, '', 38, 59, '', '', '', 0);
+        ");
+    }    
+
+    public function down() {
+    }
+}
+
+/* End of file 104_update_packages_plan_as_daily_table.php */
+/* Location: ./setup/migrations/104_update_packages_plan_as_daily_table.php */

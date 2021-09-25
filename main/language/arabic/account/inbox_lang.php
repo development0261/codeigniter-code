@@ -1,0 +1,48 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct access allowed');
+
+$lang['text_heading'] = 'صندوق البريد الخاص بي' ;
+$lang['text_my_account'] = 'حسابي' ;
+$lang['text_view_heading'] = 'رسالة صندوق الوارد الخاصة بي' ;
+$lang['text_empty'] = 'لا توجد رسالة في بريدك الوارد.' ;
+$lang['text_view'] = 'الرأي' ;
+$lang['column_date'] = 'التاريخ' ;
+$lang['column_time'] = 'الوقت' ;
+$lang['column_subject'] = 'موضوع' ;
+$lang['column_text'] = 'النص' ;
+$lang['column_action'] = 'الفعل (الأفعال)' ;
+$lang['button_back'] = 'الى الخلف' ;
+$lang['button_delete'] = 'حذف الرسالة' ;
+$lang['alert_unknown_error'] = 'عذرا، حدث خطأ.' ;
+$lang['alert_deleted_success'] = 'تم حذف الرسالة بنجاح.' ;
+$lang['text_follow_us'] = 'تابعنا على:' ;
+$lang['menu_home'] = 'الصفحة الرئيسية' ;
+$lang['menu_menu'] = 'قائمة الطعام' ;
+$lang['menu_reservation'] = 'الحجز' ;
+$lang['menu_login'] = 'تسجيل الدخول' ;
+$lang['menu_register'] ='تسجيل';
+$lang['signup'] ='تسجيل';
+$lang['about'] ='حول';
+$lang['faq'] ='التعليمات';
+$lang['privacy_policy'] ='سياسة الخصوصية';
+$lang['help_center'] ='تسجيل';
+$lang['contact'] ='تسجيل';
+$lang['contact_us'] ='اتصل بنا';
+$lang['text_follow_us'] ='اتبعنا:';
+$lang['spotneat'] ='الطربيزة';
+$lang['rights']= '2018 ترابه. كل الحقوق محفوظة';
+$lang['blog'] = 'المدونة' ;
+$lang['legal'] = 'قانوني' ;
+$lang['how_it_works'] = 'كيف تعمل' ;
+$lang['menu_recent_order'] = 'الطلبيات الأخيرة' ;
+$lang['menu_my_account'] = 'حسابي' ;
+$lang['menu_recent_reservation'] = 'التحفظات الأخيرة' ;
+$lang['menu_logout'] = 'الخروج' ;
+$lang['text_inbox'] = 'صندوق البريد الخاص بي';
+$lang['text_account']='حسابي';
+$lang['text_edit_details']='تحرير تفاصيلي';
+$lang['text_orders']='الطلبيات الأخيرة';
+$lang['text_reservations']='التحفظات الأخيرة';
+$lang['text_reviews']='المراجعات الأخيرة';
+$lang['text_logout']='الخروج';
+/* End of file inbox_lang.php */
+/* Location: ./main/language/english/main/inbox_lang.php */

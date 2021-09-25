@@ -1,0 +1,17 @@
+{
+  "name": "RestaurantCart",
+  "description": "RestaurantCart is an online ordering and restaurant management system",
+  "type": "project",
+  "keywords": [
+    "RestaurantCart",
+    "restaurant",
+    "ordering",
+    "ecommerce"
+  ],
+  "homepage": "http://RestaurantCart.com",
+  "require": {
+    "php": ">=5.4.0",
+    "kreait/firebase-php": "^4.18",
+    "dompdf/dompdf": "^0.8.5"
+  }
+}

@@ -1,0 +1,5 @@
+Datetime= 2021-05-18 15:32:03, Coupon Code=eeee, Deviceid=rrrr
+Datetime= 2021-05-18 15:32:12, Coupon Code=eeee, Deviceid=rrrr
+Datetime= 2021-05-18 15:33:54, Coupon Code=eeee, Deviceid=rrrr
+Datetime= 2021-05-18 15:34:03, Coupon Code=eeee, Deviceid=rrrr
+Datetime= 2021-05-18 15:34:38, Coupon Code=eeee, Deviceid=rrrr

@@ -1,0 +1,53 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct access allowed');
+
+$lang['text_heading'] 			        = 'IGNITIT';
+$lang['text_step_one'] 				    = 'Search';
+$lang['text_step_two'] 				    = 'Choose';
+$lang['text_step_three'] 				= 'Pay by cash or card';
+$lang['text_step_four'] 				= 'Enjoy';
+$lang['text_step_search'] 				= 'Find and select restaurant that deliver to you by entering your postcode or address.';
+$lang['text_step_choose'] 				= 'Browse hundreds of menus to find the food you like.';
+$lang['text_step_pay'] 				    = 'It\'s quick; easy and secure. Pay by Cash on Delivery or PayPal.';
+$lang['text_step_enjoy'] 				= 'Food is prepared & delivered to your door step or ready for pick-up at the restaurant.';
+$lang['book_hotel_or_order_food_from_favourite_restaurants'] 				    = 'Make Online table Reservation and order Food From Favourite Restaurants and Cafe\'s';
+$lang['explore_unique_and_best_deals'] = 'Explore Unique And Best Deals';
+$lang['restaurants'] ='Restaurants';
+    $lang['find_your_favourite_restaurants_and_foods_here'] ='Find your favourite restaurants and foods here';
+    $lang['where'] ='Where ?';
+    $lang['riyadh'] ='Riyadh';
+    $lang['saudi_arabia'] ='Saudi Arabia';
+    $lang['search_for'] ='Search for';
+    $lang['food'] ='Food';
+    $lang['enter_keyword'] ='Enter keyword';
+    $lang['shawarma'] ='Shawarma';
+    $lang['search_restaurants'] ='Search';
+    $lang['hotels'] ='Hotels';
+    $lang['discover_entire_homes_and_private_rooms_perfect_for_any_trip'] ='Discover Entire homes and private rooms Perfect for any trip';
+    $lang['city'] ='City';
+    $lang['check_in'] ='Check in';
+    $lang['check_out'] ='Check out';
+    $lang['booking_date'] ='Booking Date';
+    $lang['rooms'] ='Rooms';
+    $lang['guests'] ='Guests';
+    $lang['search_hotels'] ='Search Hotels';
+    $lang['top_hotels_&_restaurants_maybe_you_will_like'] ="We'll bring it to you";
+    $lang['offers&promotions'] ='OFFERS & PROMOTIONS';
+    $lang["here_some_hotel_reputation_that_maybe_youll_like"] ="FOOD";
+    $lang['reviews'] ='Reviews';
+    $lang['lal_qila'] ='Lal Qila';
+    $lang['kabsa'] ='Kabsa';
+    $lang['almtaziz'] ='Almtaziz';
+    $lang['starting_from'] ='Book a Table for ';
+    $lang['burj_al_arab'] ='Burj Al Arab';
+    $lang['the_palm_atlantis'] ='The Palm; Atlantis';
+    $lang['armani_ristorante'] ='Armani Ristorante';
+    $lang['now_unique_hotels_&_restaurants_in_your_pockets'] ='Speedy delivery of anything local';
+    $lang['order_from_your_favourite_hotel_&_restaurants_&_track_on_the_go_with_all_new_spotneat_app'] ='Support your local stores and order online or on the app for same day delivery';
+    
+    $lang['restaurants_cafe'] = 'Restaurants & Cafes';
+/* End of file home_lang.php */
+/* Location: ./main/language/english/main/home_lang.php */
+$lang['cafeteria'] ='Cafe';
+$lang['waldrof_astoria'] = 'Waldrof Astoria';
+$lang['both']       =   'Both';
+$lang['ratings']       =   'Ratings';

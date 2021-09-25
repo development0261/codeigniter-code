@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Buy cool new product</title>
+</head>
+<script src="https://js.stripe.com/v3/"></script>
+<style>
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        /* Full width */
+        padding: 12px;
+        /* Some padding */
+        border: 1px solid #ccc;
+        /* Gray border */
+        border-radius: 4px;
+        /* Rounded borders */
+        box-sizing: border-box;
+        /* Make sure that padding and width stays in place */
+        margin-top: 6px;
+        /* Add a top margin */
+        margin-bottom: 16px;
+        /* Bottom margin */
+        resize: vertical
+            /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+    /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    /* Add a background color and some padding around the form */
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        width: 50%;
+    }
+</style>
+
+<body>
+    <div style="float: left; width: 38%; margin-left: 35%;">
+        <video width="320" height="240" controls>
+            <source src="video_2.mp4" type=video/mp4>
+        </video>
+        <br><br>
+        <div id="fcf-form">
+
+            <div class="container">
+                <h3 class="fcf-h3">User Information</h3>
+                <label for="fname">First Name</label>
+                <input type="text" id="first_name" name="first_name" placeholder="Your first name.." value="Customer" required>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="last_name" name="last_name" placeholder="Your last name.." value="Subscription" required>
+
+                <label for="lname">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email.." value="" required>
+
+                <label for="lname">Currency</label>
+                <input type="text" id="currency" name="currency" placeholder="Currency (aud/usd).." value="AUD" required>
+
+                <label for="lname">Product Name</label>
+                <input type="text" id="product_name" name="product_name" placeholder="Product name.." value="Lee priest product" required>
+
+                <label for="lname">Per Unit Price</label>
+                <input type="text" id="unit_amount" name="unit_amount" placeholder="product price.." value="49.95" required>
+
+                <label for="lname">Quantity</label>
+                <input type="text" id="quantity" name="quantity" placeholder="Quantity.." value="1" required>
+
+                <label for="subject">Your message</label>
+                <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="hidden" id="video_id" name="video_id" value="8">
+                <input type="hidden" id="success_url" name="success_url"
+                    value="https://sweetbits.com.au/eatapp/stripe-checkout-session/success.php">
+                <input type="hidden" id="cancel_url" name="cancel_url"
+                    value="https://sweetbits.com.au/eatapp/stripe-checkout-session/failure.php">
+
+                <button id="checkout-button">Checkout</button>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            var stripe = Stripe('pk_test_51GxRVFJpxyLWDkuoqxOXPQps0gkYoN0W65Vi29MwRh2ULzbgfgsqGzwp1JKg8UPPf0tr0SDXmop7E3YddULxeK7V00WkDXvk0d');
+
+            var checkoutButton = document.getElementById('checkout-button');
+
+            checkoutButton.addEventListener('click', function () {
+                var first_name   = document.getElementById('first_name').value;
+                var last_name    = document.getElementById('last_name').value;
+                var email        = document.getElementById('email').value;
+                var video_id     = document.getElementById('video_id').value;
+                var message      = document.getElementById('message').value;
+                var success_url  = document.getElementById('success_url').value;
+                var cancel_url   = document.getElementById('cancel_url').value;
+
+                var currency     = document.getElementById('currency').value;
+                var product_name = document.getElementById('product_name').value;
+                var unit_amount  = document.getElementById('unit_amount').value;
+                var quantity     = document.getElementById('quantity').value;
+
+                if (first_name == '' || last_name == '' || email == '') {
+                    alert('Enter proper values in firstname, lastname and email.');
+                } else {
+                    var token = 'APA91bFLlj-REFznYhBY8mA7yEvMG-asXsjecb9iSMs8lYzpQaifWuh6QLkEazi6WBTAkrcBDNbPv2rHewGhVj_m3e7936w-75f00Ss6wj-t1bUVCbVt6tgi4QrJyP-xvJjb01zXTAhh';
+
+                    fetch('https://sweetbits.com.au/eatapp/stripe-checkout-session/recurring.php', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'text/plain', 'Authorization': 'Bearer ' + token },
+                        body: JSON.stringify({
+                            first_name: first_name,
+                            last_name: last_name,
+                            email: email,
+                            video_id: video_id,
+                            message: message,
+                            success_url: success_url,
+                            cancel_url: cancel_url,
+                            currency: currency,
+                            product_name: product_name,
+                            unit_amount: unit_amount,
+                            quantity: quantity
+
+                        })
+                        })
+                        .then(function (response) {
+                            return response.json();
+                        })
+                        .then(function (session) {
+                            return stripe.redirectToCheckout({ sessionId: session.id });
+                        })
+                        .then(function (result) {
+                            if (result.error) {
+                                alert(result.error.message);
+                            }
+                        })
+                        .catch(function (error) {
+                            console.error('Error:', error);
+                        });
+                }
+            });
+        </script>
+</body>
+
+</html>

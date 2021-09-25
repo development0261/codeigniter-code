@@ -1,0 +1,19 @@
+<?php
+$MODE        = 'DEV'; // DEV / LIVE
+$STRIPE_KEY  = '';
+$STRIPE_PUBLIC_KEY  = '';
+$PRICE_KEY   = '';
+
+if($MODE == 'LIVE'){
+  $STRIPE_KEY = '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';
+  $STRIPE_PUBLIC_KEY = 'pk_live_51J0ymVDdNEIkof9PghkmCv7e4siqGVxfN2jnayy7rUVBKp9nksfCEDcE4qsGGgtfmQGoGUmcXlgxJGJcLvhs1HmV00SUEMBGrd';
+  $PRICE_KEY = 'price_1J7HbmDdNEIkof9POMyzUDwf';
+} else if($MODE == 'DEV'){
+  $STRIPE_KEY = 'sk_test_51GxRVFJpxyLWDkuo0rVAU4nxTR0eyPLidiQ92igKB3MsUuK2R5uhEbH2LEGIszV7sTLrGDNWLyt8yNDlufBioYNG00A3K8ZAuY';
+  $STRIPE_PUBLIC_KEY = 'pk_test_51GxRVFJpxyLWDkuoqxOXPQps0gkYoN0W65Vi29MwRh2ULzbgfgsqGzwp1JKg8UPPf0tr0SDXmop7E3YddULxeK7V00WkDXvk0d';
+  $PRICE_KEY = 'price_1J6ZwcJpxyLWDkuov0L600cJ';
+}
+define("STRIPE_KEY", $STRIPE_KEY);
+define("STRIPE_PUBLIC_KEY", $STRIPE_PUBLIC_KEY);
+define("PRICE_KEY", $PRICE_KEY);
+?>
