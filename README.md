@@ -21,6 +21,7 @@ admin panel -> settings -> restaurant ->Google Maps API Key
 
 
 # test
+# Standards needs to follow
 Always use model for writing queries.
 	https://prnt.sc/1ud18h9
 
